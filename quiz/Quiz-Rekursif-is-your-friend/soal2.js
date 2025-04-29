@@ -25,7 +25,7 @@ function changeXRecursive(data, jenis) {
         return '';
     }
 
-    let angka = parseInt(data[0]);
+    let angka = data[0]
     let sisaData = data.slice(1);
 
     let gantiAngka;
