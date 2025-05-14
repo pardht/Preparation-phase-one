@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
+.header {
+    background-color: darkorange;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.header h2 {
+    color: #fff;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#inpTodo {
+    width: 70%;
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+}
+
+#addBtn {
+    width: 15%;
+    background: #4dff91;
+    color: #555;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#addBtn:hover {
+    background: #96f4ba;
+}
+
+ul#listParent {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#listParent div {
+    background: #f9f9f9;
+    color: #333;
+    padding: 16px 100px 16px 100px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#listParent div:nth-child(even) {
+    background: #eee;
+}
+
+ul#listParent li.completed {
+    text-decoration: line-through;
+    color: #777;
+}
+
+ul#listParent div:hover li {
+    cursor: pointer;
+    color: #777;
+}
+
+.hapusBtn {
+    background-color: #f74c4c;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 8px;
+    transition: color 0.2s;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hapusBtn:hover {
+    background-color: #ed7878;
+}
